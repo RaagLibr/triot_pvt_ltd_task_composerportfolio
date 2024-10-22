@@ -1,0 +1,268 @@
+/* RESPONSIVE MENU */
+    
+@media screen and (max-width: 600px) {
+     
+   
+ nav i {
+      color: white;
+      font-size: 2.4rem;
+      cursor: pointer;
+    }
+  
+    .close {
+      position: absolute;
+      right: 3rem;
+      transform: translateY(-20rem);
+      transition: all 0.5s;
+      color: white;
+    }
+  
+    .nav-list {
+      width: 80%;
+      position: relative;
+      left: -2rem;
+      align-items: center;
+      top: 4em;
+      align-content: center;
+      margin: 0 auto;
+      padding: 2rem 0;
+      margin-top: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: solid #520202 2px;
+     border-radius: 3px;
+      z-index: 999;
+      transform: translateY(-200%);
+      transition: all 0.5s;
+    }
+  
+    .nav-list li {
+      width: 100%;
+      padding: 5px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.4rem;
+      border-bottom: 1px solid white;
+      text-align: center;
+    }
+    .nav-list li a 
+    {
+      text-align: center;
+    }
+  
+    .nav-list li:first-child {
+      border-top: 1px solid white;
+    }
+  
+    .nav-list li a:hover {
+       font-size: 1.3rem;
+  font-weight: 3%;
+
+    
+    }
+
+     body .section-top .bg #heading
+ {
+  align-content: center;
+  position:absolute;
+  top: 50%;
+  left: 3em;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1em;
+ }
+
+  body .section-top .bg #heading img
+ {
+    height: 5rem;
+    width: 20rem;
+
+ }
+
+    nav .logo 
+    {
+      position: relative;
+      left: 1rem;
+      top: 2.3em;
+      font-size: 2em;
+    }
+
+     
+
+     /*-------------------------------------section 1 -------------------------------------------------------------*/
+   
+ 
+    main .section1
+    {
+      margin: 0 1em;
+      display: flex;
+         position: relative;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: space-evenly;
+      bottom: 10em;
+      top: 1em;
+
+    }
+    main .section1 div
+    {
+        margin: 0rem;
+        padding: 1rem;
+       height: 100%;
+       width: 100%;
+    }
+    main .section1 .mypic 
+    {
+      height: 100%;
+      width: 95%;
+    }
+
+
+
+
+
+    /*-------------------------------------section 2 -------------------------------------------------------------*/
+
+    main .section1
+    {
+      margin: 0 1em;
+      display: flex;
+         position: relative;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: space-evenly;
+      top: 1em;
+
+    }
+    main .section1 div
+    {
+        margin: 0rem;
+        padding: 1rem;
+       height: 100%;
+       width: 100%;
+    }
+    main .section1 .mypic 
+    {
+      height: 100%;
+      width: 95%;
+    }
+    main .section2
+    {
+      display: flex;
+       position: relative;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin: 1em 0;
+      height: 100%;
+      bottom: 10em;
+      margin-bottom: 5em;
+      top: 1px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+  /*-------------------------------------section 3  start-------------------------------------------------------------*/
+
+  main .section3 .bg2 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    color: white;
+    padding: 0px;
+    flex-wrap: nowrap;
+  }
+  main .section3
+  {
+     width: 100%;
+      height: 240vh;
+      
+  
+}
+  main section.section3 div.bg2
+      {
+        width: 100%;
+      height: 240vh;
+      align-items: center;
+      align-content: center;
+     
+      }
+
+/*-------------------------------------section 4  start-------------------------------------------------------------*/
+   .section4
+    {
+      display: flex;
+      flex-direction: column;
+       margin: 0rem 1rem;
+
+    }
+    .section4 .image
+    {
+      margin: 1em;
+    }
+
+
+
+/*--------------------------------------------------------section 5 responsivness----------------------------------*/
+main .section5
+    {
+      margin: 2rem 0em;
+      display: flex;
+         position: relative;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: space-evenly;
+      top: 4em;
+      padding: 3em 2em;
+
+    }
+    main .section5 div
+    {
+        margin: 0rem;
+        padding: 1rem;
+       height: 100%;
+       width: 100%;
+    }
+    main .section5 .mypic 
+    {
+      height: 100%;
+      width: 95%;
+    }
+
+
+    main .section5
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+/*--------------------------------------------------------section 6 responsivness----------------------------------*/
+   section.section6
+    {
+      display: flex;
+      flex-direction: column;
+       height: 224vh;
+     
+    }
+
+  
+
+  }
+
+
+
