@@ -1,0 +1,130 @@
+/* RESPONSIVE MENU */
+@media screen and (max-width: 900px) {
+
+  nav i {
+    color: white;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+  .close {
+    position: absolute;
+    right: 3rem;
+    transform: translateY(-20rem);
+    transition: all 0.5s;
+    color: white;
+    z-index: 1000;
+  }
+
+  .nav-list {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    top: 4em;
+    margin: 0;
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-bottom: solid #520202 2px;
+    border-radius: 0;
+    z-index: 999;
+    transform: translateY(-200%);
+    transition: all 0.5s;
+    box-sizing: border-box;
+  }
+
+  .nav-list.open {
+    transform: translateY(0);
+  }
+
+  .nav-list li {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid white;
+    text-align: center;
+  }
+
+  .nav-list li:first-child {
+    border-top: 1px solid white;
+  }
+
+  body .section-top .bg #heading {
+    position: relative;
+    top: 6em;
+    left: 0;
+    padding: 0 1em;
+    display: block;
+    line-height: 1.5;
+  }
+
+  body .section-top .bg #heading img {
+    height: auto;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  nav .logo {
+    left: 1rem;
+    font-size: 2em;
+    top: 0.5em;
+  }
+
+  /* Reset layout directions */
+  main .section1,
+  main .section2,
+  main .section5 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    margin: 2em 1em;
+    padding: 2em 0;
+  }
+
+  main .section3 .bg2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em;
+    height: auto;
+  }
+
+  main .section1 div,
+  main .section5 div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    padding: 0;
+  }
+
+  main .section1 .mypic,
+  main .section5 .mypic,
+  main .section1 .mypic img,
+  main .section5 .mypic img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section4 {
+    margin: 2em 1em;
+    bottom: 0;
+  }
+
+  .section6 {
+    flex-direction: column;
+    height: auto;
+    padding: 2em 0;
+  }
+
+  .section6 div.cl1,
+  .section6 div.cl2 {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
